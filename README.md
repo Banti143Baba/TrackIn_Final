@@ -56,7 +56,6 @@ The core of our application is the `journal_entries` table, designed to capture 
 | `stop_loss_price`       | `NUMERIC`     | Pre-defined stop-loss level                    |
 | `target_price`          | `NUMERIC`     | Pre-defined target price                       |
 | `risk_reward_ratio`     | `NUMERIC`     | Calculated Risk-to-Reward Ratio (RRR)          |
-| `profit_loss`           | `NUMERIC`     | Net Profit or Loss ($P\&L$)                    |
 | `percentage_return`     | `NUMERIC`     | Return in percentage                           |
 | `overall_market_trend`  | `VARCHAR(50)` | e.g., Bullish, Bearish, Sideways               |
 | `news_impact`           | `TEXT`        | Impact of any related news                     |
